@@ -19,7 +19,7 @@
 #  - name: Set Domain Suffix
 #    ansible.windows.win_regedit:
 #      path: HKLM:\SYSTEM\CurrentControlSet\services\Tcpip\Parameters
-#      name: 'NV Domain'
+#      name: 'NV Domains'
 #      data: 'mgt.prvdns.vaultexuk.net'
 #      type: string
 
