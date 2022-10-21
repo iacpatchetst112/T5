@@ -39,7 +39,7 @@
       name: Failover-Clustering
       state: present
       include_sub_features: no
-      include_management_tools: yes
+      include_management_tools: no
 
   - name: Reboot the machine with all defaults
     ansible.windows.win_reboot:
